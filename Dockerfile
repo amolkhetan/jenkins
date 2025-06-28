@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # Install any needed packages
-RUN pip install 
+RUN pip install flask requests numpy
 
 # Make port 5000 available to the world outside this container
 EXPOSE 5000
